@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-h1{
+h1, h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -37,6 +37,7 @@ h1{
 }
 
 /* non-reusalbe classes */
+/* section 1 */
 .section1 {
     display: flex;
     flex-direction: row;
@@ -76,6 +77,7 @@ h1{
 .sec_article p {
     font-size: 20px;
     font-weight: 500;
+    line-height: 35px;
 }
 
 .sec_article a {
@@ -101,4 +103,141 @@ h1{
 .s1_right img {
     width: 80%;
     margin-left: auto;
+}
+
+/* section 2 */
+.section2 {
+    background-image: url(./images/my-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 230px;
+}
+
+.section2 h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #13103a;
+}
+
+.mission_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    width: 32%;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.card:first-child {
+    background-color: #edf5f6;
+    margin-right: auto;
+}
+
+.card:nth-child(2) {
+    background-color: #ffeeee;
+}
+
+.card:last-child {
+    background-color: #fff4d6;
+    margin-left: auto;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card h2 {
+    font-size: 25px;
+}
+
+.card p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* section 3 */
+.rest_section {
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 5.5% 70%;
+    padding-bottom: 50px;
+}
+
+.rest_sec_desc {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec_img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec_img img {
+    max-width: 100%;
+    display: block;
+}
+
+.sec_desc {
+    width: 70%;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.sec_desc h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+/* section 4 */
+.rs_flip {
+    background-image: url(./images/shape-1.png);
+    background-size: contain;
+    background-position-x: 75%;
+    padding-bottom: 30px;
+}
+
+.sec_desc_flip {
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+/* section 5 */
+
+
+/* footer */
+#footer {
+    text-align: center;
+    background-color: #0b0d17;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+#ft_header {
+    font-size: 30px;
+}
+
+#ft_header h1 {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    color: white;
+}
+
+#ft_header h1 span {
+    color: #ff5959;
+}
+
+#ft_para {}
+
+#ft_para p {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0;
 }
