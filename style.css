@@ -266,6 +266,7 @@ h1, h2 {
     display: flex;
     flex-direction: row;
     background-image: linear-gradient(45deg, #746969, #896c6c1c);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
 }
 
 .ch_card:last-child {
@@ -292,6 +293,7 @@ h1, h2 {
     padding: 20px 30px;
     background-color: aliceblue;
     border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
 }
 
 .cv_card p {
