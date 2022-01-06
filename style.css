@@ -250,13 +250,22 @@ h1, h2 {
     margin-right: auto;
 }
 
-.ch_card {
+/* .ch_card {
     background-color: aliceblue;
     padding: 20px 30px;
     border-radius: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+} */
+
+.ch_card {
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(45deg, #746969, #896c6c1c);
 }
 
 .ch_card:last-child {
@@ -297,13 +306,24 @@ h1, h2 {
     margin-left: 30px;
 }
 
-.ch_desc h2 {
+/* .ch_desc h2 {
     margin-bottom: 0;
 }
 
 .ch_desc p {
     font-size: 18px;
     font-weight: 500;
+} */
+
+.ch_desc h2 {
+    margin-bottom: 0;
+    color: white;
+}
+
+.ch_desc p {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
 }
 
 /* footer */
