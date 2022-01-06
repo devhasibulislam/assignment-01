@@ -209,7 +209,102 @@ h1, h2 {
 }
 
 /* section 5 */
+.candidates {
+    padding: 50px 0;
+    background-image: url(./images/my-bg2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center bottom;
+}
 
+.candidates .article_btn {
+    text-align: center;
+}
+
+.candidates .article_btn a {
+    padding: 20px 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-image: linear-gradient(185deg, #100997, #8e6cd5);
+}
+
+.cand_header {
+    text-align: center;
+}
+
+.cand_header h1 {
+    font-size: 50px;
+}
+
+.cand_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cl_card {
+    width: 48%;
+    margin-right: auto;
+}
+
+.ch_card {
+    background-color: aliceblue;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.ch_card:last-child {
+    margin-top: 20px;
+}
+
+.ch_card img {
+    height: 100px;
+}
+
+.ch_card p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cr_card {
+    width: 48%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.cv_card {
+    padding: 20px 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.cv_card p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ch_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.ch_desc h2 {
+    margin-bottom: 0;
+}
+
+.ch_desc p {
+    font-size: 18px;
+    font-weight: 500;
+}
 
 /* footer */
 #footer {
@@ -232,8 +327,6 @@ h1, h2 {
 #ft_header h1 span {
     color: #ff5959;
 }
-
-#ft_para {}
 
 #ft_para p {
     font-size: 18px;
